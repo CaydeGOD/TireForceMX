@@ -1,0 +1,64 @@
+.custom-button {
+  font-family: 'Arial', sans-serif; /* Cambia a la fuente más parecida si la conoces */
+  font-weight: 300; /* Tipografía ligera */
+  font-size: 20px; /* Ajusta el tamaño del texto si es necesario */
+  color: white; /* Color del texto */
+  background-color: transparent; /* Fondo transparente por defecto */
+  border: 1px solid #ffdd00; /* Borde delgado con color */
+  padding: 10px 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  overflow: hidden;
+  transition: color 0.4s ease-in-out, border-color 0.4s ease-in-out; /* Suave transición de color y borde */
+}
+
+.custom-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #796d1e7c; /* Color del relleno animado */
+  z-index: 0;
+  transform: scaleX(0); /* Inicialmente no visible */
+  transform-origin: right;
+  transition: transform 0.4s ease-in-out; /* Suave transición del relleno */
+}
+
+.custom-button:hover::before {
+  transform: scaleX(1); /* Al pasar el mouse, se rellena el botón */
+  transform-origin: left; /* El relleno se desplaza de izquierda a derecha */
+}
+
+.custom-button:hover {
+  color: rgb(255, 255, 255); /* Cambia el color del texto al pasar el mouse */
+}
+
+.custom-button span {
+  position: relative;
+  z-index: 10; /* El texto siempre está encima del relleno */
+}
+
+.custom-button:hover {
+  border-color:  #ffdd00; /* Mantiene el color del borde */
+}
+@media (max-width: 1399px) {
+  .custom-button {
+    font-family: 'Arial', sans-serif; /* Cambia a la fuente más parecida si la conoces */
+    font-weight: 300; /* Tipografía ligera */
+    font-size: 13px; /* Ajusta el tamaño del texto si es necesario */
+    color: white; /* Color del texto */
+    background-color: transparent; /* Fondo transparente por defecto */
+    border: 1px solid #ffdd00; /* Borde delgado con color */
+    padding: 10px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.4s ease-in-out, border-color 0.4s ease-in-out; /* Suave transición de color y borde */
+  }
+}

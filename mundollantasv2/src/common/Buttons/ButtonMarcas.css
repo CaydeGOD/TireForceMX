@@ -1,0 +1,198 @@
+.btnMarcas {
+  font-family: 'Arial', sans-serif; /* Cambia a la fuente más parecida si la conoces */
+  font-weight: 300; /* Tipografía ligera */
+  font-size: 13px; /* Ajusta el tamaño del texto si es necesario */
+  color: rgb(0, 0, 0); /* Color del texto */
+  background-color: transparent; /* Fondo transparente por defecto */
+  border: 2px solid #122e57; /* Borde delgado con color */
+  padding: 10px 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  overflow: hidden;
+  transition: color 0.4s ease-in-out, border-color 0.4s ease-in-out; 
+}
+
+.btnMarcas::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1c61c765; /* Color del relleno animado */
+  z-index: 0;
+  transform: scaleX(0); /* Inicialmente no visible */
+  transform-origin: right;
+  transition: transform 0.4s ease-in-out; /* Suave transición del relleno */
+}
+
+.btnMarcas:hover::before {
+  transform: scaleX(1); /* Al pasar el mouse, se rellena el botón */
+  transform-origin: left; /* El relleno se desplaza de izquierda a derecha */
+}
+
+.btnMarcas:hover {
+  color: rgb(0, 0, 0); /* Cambia el color del texto al pasar el mouse */
+}
+
+.btnMarcas span {
+  position: relative;
+  z-index: 10; /* El texto siempre está encima del relleno */
+}
+
+.btnMarcas:hover {
+  border-color:  #006eff; /* Mantiene el color del borde */
+}
+
+/* REDES SOCIALES */
+/* INSTAGRAM */
+.btnInsta {
+  font-family: 'Arial', sans-serif; /* Cambia a la fuente más parecida si la conoces */
+  font-weight: 300; /* Tipografía ligera */
+  font-size: 16px; /* Ajusta el tamaño del texto si es necesario */
+  color: rgb(0, 0, 0); /* Color del texto */
+  background-color: transparent; /* Fondo transparente por defecto */
+  border: 2px solid #b4c3ff; /* Borde delgado con color */
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 2%;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  overflow: hidden;
+  transition: color 0.4s ease-in-out, border-color 0.4s ease-in-out; /* Suave transición de color y borde */
+}
+
+.btnInsta::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #76a6ff65; /* Color del relleno animado */
+  z-index: 0;
+  transform: scaleX(0); /* Inicialmente no visible */
+  transform-origin: right;
+  transition: transform 0.4s ease-in-out; /* Suave transición del relleno */
+}
+
+.btnInsta:hover::before {
+  transform: scaleX(1); /* Al pasar el mouse, se rellena el botón */
+  transform-origin: left; /* El relleno se desplaza de izquierda a derecha */
+}
+
+.btnInsta:hover {
+  color: rgb(0, 0, 0); /* Cambia el color del texto al pasar el mouse */
+}
+
+.btnInsta span {
+  position: relative;
+  z-index: 10; /* El texto siempre está encima del relleno */
+}
+
+.btnInsta:hover {
+  border-color:  #a3adff; /* Mantiene el color del borde */
+}
+/* WASAAAA*/
+.btnWasa {
+  font-family: 'Arial', sans-serif; /* Cambia a la fuente más parecida si la conoces */
+  font-weight: 300; /* Tipografía ligera */
+  font-size: 16px; /* Ajusta el tamaño del texto si es necesario */
+  color: rgb(0, 0, 0); /* Color del texto */
+  background-color: transparent; /* Fondo transparente por defecto */
+  border: 2px solid #27cb47; /* Borde delgado con color */
+  padding: 10px 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  overflow: hidden;
+  transition: color 0.4s ease-in-out, border-color 0.4s ease-in-out; /* Suave transición de color y borde */
+}
+
+.btnWasa::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #14db4648; /* Color del relleno animado */
+  z-index: 0;
+  transform: scaleX(0); /* Inicialmente no visible */
+  transform-origin: right;
+  transition: transform 0.4s ease-in-out; /* Suave transición del relleno */
+}
+
+.btnWasa:hover::before {
+  transform: scaleX(1); /* Al pasar el mouse, se rellena el botón */
+  transform-origin: left; /* El relleno se desplaza de izquierda a derecha */
+}
+
+.btnWasa:hover {
+  color: rgb(0, 0, 0); /* Cambia el color del texto al pasar el mouse */
+}
+
+.btnWasa span {
+  position: relative;
+  z-index: 10; /* El texto siempre está encima del relleno */
+}
+
+.btnWasa:hover {
+  border-color:  #00a27d; /* Mantiene el color del borde */
+}
+/* Responsividad para dispositivos muy pequeños (menor a 480px) */
+@media (max-width: 480px) {
+  .btnMarcas {
+    font-family: 'Arial', sans-serif; /* Cambia a la fuente más parecida si la conoces */
+  font-weight: 300; /* Tipografía ligera */
+  font-size: 12px; /* Ajusta el tamaño del texto si es necesario */
+  color: rgb(0, 0, 0); /* Color del texto */
+  background-color: transparent; /* Fondo transparente por defecto */
+  border: 2px solid #122e57; /* Borde delgado con color */
+  padding: 10px 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  overflow: hidden;
+  transition: color 0.4s ease-in-out, border-color 0.4s ease-in-out; 
+  }
+  .btnInsta {
+    font-family: 'Arial', sans-serif; /* Cambia a la fuente más parecida si la conoces */
+    font-weight: 300; /* Tipografía ligera */
+    font-size: 12px; /* Ajusta el tamaño del texto si es necesario */
+    color: rgb(0, 0, 0); /* Color del texto */
+    background-color: transparent; /* Fondo transparente por defecto */
+    border: 2px solid #b4c3ff; /* Borde delgado con color */
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 2%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.4s ease-in-out, border-color 0.4s ease-in-out; /* Suave transición de color y borde */
+  }
+  .btnWasa {
+    font-family: 'Arial', sans-serif; /* Cambia a la fuente más parecida si la conoces */
+    font-weight: 300; /* Tipografía ligera */
+    font-size: 12px; /* Ajusta el tamaño del texto si es necesario */
+    color: rgb(0, 0, 0); /* Color del texto */
+    background-color: transparent; /* Fondo transparente por defecto */
+    border: 2px solid #27cb47; /* Borde delgado con color */
+    padding: 10px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.4s ease-in-out, border-color 0.4s ease-in-out; /* Suave transición de color y borde */
+  }
+  .btnInsta::before {
+    background-color: #76a6ff65; /* Color del relleno animado */
+  }
+} 

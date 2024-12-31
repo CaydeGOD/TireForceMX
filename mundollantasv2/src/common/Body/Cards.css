@@ -1,0 +1,143 @@
+/* Contenedor principal de las tarjetas */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  gap: 20px;
+}
+
+/* Estilo de cada tarjeta */
+.card {
+  background-color: #f7f7f7;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  padding: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card p{
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Imagen en la tarjeta */
+.card-image {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+/* Responsividad para pantallas grandes (mantiene 4x4) */
+@media (min-width: 1164px) {
+
+
+  .card {
+      width: 20%; /* Ajusta el ancho para que se muestren 4 tarjetas por fila */
+  }
+  .card-title {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 1.3rem; /* Título más grande en pantallas grandes */
+  }
+
+  .card-description {
+  
+    font-size: 1rem; /* Descripción más grande en pantallas grandes */
+  }
+  .card p{
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/* Responsividad para pantallas medianas (tablets) */
+@media (max-width: 1163px) and (min-width: 768px) {
+  .cards-container {
+      flex-wrap: wrap;
+      
+  }
+
+  .card {
+      width: 40%; /* Mantiene 4 tarjetas por fila en tablets */
+  }
+  .card-title {
+    font-size: 1.2rem; /* Ajuste de tamaño del título */
+  }
+
+  .card-description {
+    font-size: 0.9rem; /* Ajuste de tamaño de la descripción */
+  }
+  .card p{
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/* Responsividad para pantallas pequeñas (móviles 2x2) */
+@media (max-width: 767px) {
+  .cards-container {
+      justify-content: center;
+  }
+
+  .card {
+      width: 40%; /* 2 tarjetas por fila en pantallas móviles */
+      margin-bottom: 20px;
+  }
+  .card-title {
+    font-size: 1.2rem; /* Ajuste de tamaño del título */
+  }
+
+  .card-description {
+    font-size: 0.9rem; /* Ajuste de tamaño de la descripción */
+  }
+}
+@media (max-width: 599px) {
+  .cards-container {
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  .card {
+      width: 80%; /* Mantiene el diseño 2x2 pero con un tamaño más pequeño en móviles */
+      margin-bottom: 15px;
+  }
+
+  .card-image {
+      width: 100%; /* Ajusta el tamaño de la imagen en pantallas móviles */
+  }
+}
+/* Responsividad para dispositivos muy pequeños (menor a 480px) */
+@media (max-width: 480px) {
+  .cards-container {
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  .card {
+      width: 90%; /* Mantiene el diseño 2x2 pero con un tamaño más pequeño en móviles */ 
+  }
+  .card p{
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .card-image {
+      width: 100%; /* Ajusta el tamaño de la imagen en pantallas móviles */
+  }
+  .card-title {
+    font-size: 1rem; /* Ajuste de tamaño del título */
+    margin: 2%;
+  }
+
+  .card-description {
+    font-size: 1rem; /* Ajuste de tamaño de la descripción */
+  }
+}

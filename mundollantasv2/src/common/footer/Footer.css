@@ -1,0 +1,37 @@
+.Footer{
+    background-color: rgb(27, 28, 29);
+    color: azure;
+    height: 100%;
+    align-items: center;
+}
+.Footer p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: inherit;
+    font-size:medium;
+}
+.FootConte{
+    padding: 2%;
+}
+a{
+    margin: 2%;
+    color: rgb(205, 162, 43);
+}
+a:hover{
+    color: rgb(42, 93, 165);
+}
+@media only screen and (max-width: 539px) {
+    .Footer p{
+        font-family:Arial, Helvetica, sans-serif;
+        font-style: inherit;
+        font-size:small;
+    } 
+    a{
+        margin: 2%;
+        color: rgb(205, 162, 43);
+        font-size: small;
+    }
+    .FootConte{
+        padding: 5%;
+        height: 100px;
+    }
+}

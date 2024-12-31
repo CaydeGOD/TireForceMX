@@ -1,0 +1,217 @@
+:root {
+  --main-color: #e3be2a;
+}
+.head-container {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  background-color: #0e2240ec; 
+  padding: 20px 0;
+}
+.container {
+  margin-left: 10px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+.logo {
+  background-image: url('/public/logoTF.jpg'); /* Imagen grande */
+  background-size: cover;
+  background-position: center;
+  width: 150px;
+  height: 50px;
+}
+.highlight {
+  color: var(--main-color); 
+}
+.nav-links {
+  overflow: hidden; /* Oculta contenido que sobrepasa el contenedor */
+  max-height: 0; /* Comienza cerrado */
+  transition: max-height 0.3s ease; /* Transición suave */
+}
+.nav-links.show {
+  max-height: 215px; /* Cambia este valor según el contenido */
+} 
+.nav-links ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+
+  padding: 0; /* Quita el padding predeterminado */
+  margin: 0; /* Quita el margen predeterminado */
+  flex-direction: column; /* Asegúrate que esté en columna */
+}
+
+.nav-links ul li {
+  
+  display: block; /* Cambia a block para apilar verticalmente */
+}
+
+.nav-links ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  
+}
+
+.nav-links ul li a:hover {
+  color: var(--main-color);
+}
+
+.d_flex {
+  display: flex;
+}
+.hamburger {
+  display: none; /* Hidden by default */
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.icon-btn-hamburger {
+  font-size: 18px; /* Cambia este valor para ajustar el tamaño */
+  color: white; /* Color del ícono */
+  
+}
+@media only screen and (min-width: 481px) {
+  .hamburger {
+    display: none; /* Oculta el botón en pantallas más grandes */
+  }
+}
+
+.nav-links{
+  display: flex;
+  font-size: 90%;
+}
+.nav-links ul {
+  flex-direction: row;
+  align-items: flex-start;
+}
+.desktop-nav{
+  display: flex;
+  flex-direction: row;
+  font-size: 100%;
+}
+
+.desktop-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0; /* Quita el padding predeterminado */
+  margin: 0; /* Quita el margen predeterminado */
+}
+.desktop-nav ul li {
+  
+  display: block; /* Cambia a block para apilar verticalmente */
+}
+
+.desktop-nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.desktop-nav ul li a:hover {
+  color: var(--main-color);
+}
+
+
+/* RESPONSIVES */
+@media only screen and (max-width: 768px) {
+  /* TABLETS*/
+  .logo {
+    background-image: url('/public/logoTF.jpg'); /* Imagen grande */
+    background-size: cover;
+    background-position: center;
+    width: 125px;
+    height: 40px;
+  }
+  .nav-links{
+    display: flex;
+    font-size: 10px;
+  }
+  .nav-links ul {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .nav-links.show {
+    display: flex; /* Show when the hamburger is clicked */
+  }
+  .container {
+    margin-left: 5px;
+    margin-right: 10px;
+  }
+  .desktop-nav{
+    display: flex;
+    flex-direction: row;
+    font-size: 80%;
+  }
+  
+}
+
+@media only screen and (max-width: 539px) {
+  /* TELEFONOS MOVILES*/
+  .nav-links {
+    /* display: none;  Hidden by default on mobile */
+    /* flex-direction: column; /* Stack in vertical */
+    /* gap: 10px; */
+    display: block; /* Display block for vertical stacking */
+  }
+
+  .nav-links ul {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    margin: 2%;
+    background-color:#132f5a;
+    width: 100%;
+    height: 100%;
+    border-radius: 1%;
+  }
+
+  .nav-links.show {
+    display: flex; /* Show when the hamburger is clicked */
+  }
+
+  .nav-links ul li a {
+    font-size: 10px;
+  }
+
+  .head-container {
+    padding: 10px 0;
+  }
+
+  .container {
+    flex-direction: row;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .hamburger {
+    display: flex; /* Show hamburger on mobile */
+    margin-left: auto; /* Mover el botón al lado derecho */
+    
+  }
+
+  .nav-links ul {
+    align-items: flex-start;
+  }
+
+  .d_flex {
+    flex-direction: column;
+  }
+  .desktop-nav{
+    display: none;
+  }
+  .mobile-nav{
+    display: flex;
+  }
+}
+
+  
