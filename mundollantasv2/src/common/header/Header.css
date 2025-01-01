@@ -64,7 +64,7 @@ html {
 }
 .parallax2{
   width: 100%;
-  height: 50vh; /* Cambiado a 100vh para que ocupe toda la pantalla */
+  height: 80vh; /* Cambiado a 100vh para que ocupe toda la pantalla */
 }
 .parallax3{
   width: 100%;
