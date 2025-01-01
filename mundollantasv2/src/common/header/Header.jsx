@@ -26,7 +26,7 @@ const Header = () => {
         </div>
       </header>
       {/* Sección adicional con contenido */}
-      <div className="section">
+      <div className="section" id='nosotros'>
         <h3>CONÓCENOS<div className='underline'></div></h3>
         <Cards/>
       </div>
