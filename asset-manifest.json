@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/TireForceMX/static/css/main.8dd76d45.css",
+    "main.js": "/TireForceMX/static/js/main.e238d6d8.js",
+    "static/js/453.683f0380.chunk.js": "/TireForceMX/static/js/453.683f0380.chunk.js",
+    "static/media/truck.jpg": "/TireForceMX/static/media/truck.04dffa2b9e745b1d2627.jpg",
+    "static/media/Mecanico.jpg": "/TireForceMX/static/media/Mecanico.2ae545b2312f3bafaf12.jpg",
+    "static/media/Tractor1.webp": "/TireForceMX/static/media/Tractor1.67a8cfa181f0f0e4bef9.webp",
+    "static/media/Cover.webp": "/TireForceMX/static/media/Cover.dcf0f85f7f96601a0e28.webp",
+    "static/media/Trailer1.webp": "/TireForceMX/static/media/Trailer1.caa70a8618a389db62c3.webp",
+    "static/media/Trailer2.webp": "/TireForceMX/static/media/Trailer2.bc1bc99511ce77ecf7a8.webp",
+    "static/media/almacen.webp": "/TireForceMX/static/media/almacen.bd6a146636d0a8de3d39.webp",
+    "static/media/hank.jpg": "/TireForceMX/static/media/hank.db0e6d7b6efb00a0e12d.jpg",
+    "static/media/mexico.png": "/TireForceMX/static/media/mexico.fa2652e41873666225e9.png",
+    "static/media/broadpeak.jpg": "/TireForceMX/static/media/broadpeak.c0b6b9c67ffb56a0021c.jpg",
+    "static/media/sumaxx.jpg": "/TireForceMX/static/media/sumaxx.38d3b2ca97e29aacf1dc.jpg",
+    "static/media/sunfull.jpg": "/TireForceMX/static/media/sunfull.42e75519f71ea7ccb049.jpg",
+    "static/media/fire.jpg": "/TireForceMX/static/media/fire.b6208923aac739acb364.jpg",
+    "static/media/Longtrack.jpg": "/TireForceMX/static/media/Longtrack.1333228ec44c4ccbf529.jpg",
+    "static/media/max.jpg": "/TireForceMX/static/media/max.39590fa0abea6389e80e.jpg",
+    "static/media/cont.jpg": "/TireForceMX/static/media/cont.f24cc97d7cbeec2af696.jpg",
+    "static/media/powetrack.jpg": "/TireForceMX/static/media/powetrack.d77e2afe949d900830f5.jpg",
+    "static/media/goodyear.jpg": "/TireForceMX/static/media/goodyear.3113fdacb4cad18a792d.jpg",
+    "static/media/doublecoin.jpg": "/TireForceMX/static/media/doublecoin.555d9b607dde02f32ba8.jpg",
+    "static/media/kumotire.jpg": "/TireForceMX/static/media/kumotire.c962f4b411f18a3d2485.jpg",
+    "static/media/Michellin.jpg": "/TireForceMX/static/media/Michellin.c709f19b99d2a173a0c6.jpg",
+    "static/media/brid.png": "/TireForceMX/static/media/brid.b57ea33ea77a6adfb455.png",
+    "static/media/yoko.jpg": "/TireForceMX/static/media/yoko.21ce49e276ebf4d93972.jpg",
+    "static/media/logoTF.jpg": "/TireForceMX/static/media/logoTF.019b2fae16e6168a1279.jpg",
+    "index.html": "/TireForceMX/index.html",
+    "main.8dd76d45.css.map": "/TireForceMX/static/css/main.8dd76d45.css.map",
+    "main.e238d6d8.js.map": "/TireForceMX/static/js/main.e238d6d8.js.map",
+    "453.683f0380.chunk.js.map": "/TireForceMX/static/js/453.683f0380.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8dd76d45.css",
+    "static/js/main.e238d6d8.js"
+  ]
+}
