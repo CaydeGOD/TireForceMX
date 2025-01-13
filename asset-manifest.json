@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/TireForceMX/static/css/main.458bec43.css",
-    "main.js": "/TireForceMX/static/js/main.0e10a238.js",
+    "main.js": "/TireForceMX/static/js/main.8c22fb2a.js",
     "static/js/453.683f0380.chunk.js": "/TireForceMX/static/js/453.683f0380.chunk.js",
     "static/media/truck.jpg": "/TireForceMX/static/media/truck.04dffa2b9e745b1d2627.jpg",
     "static/media/Mecanico.jpg": "/TireForceMX/static/media/Mecanico.2ae545b2312f3bafaf12.jpg",
@@ -29,11 +29,11 @@
     "static/media/logoTF.jpg": "/TireForceMX/static/media/logoTF.019b2fae16e6168a1279.jpg",
     "index.html": "/TireForceMX/index.html",
     "main.458bec43.css.map": "/TireForceMX/static/css/main.458bec43.css.map",
-    "main.0e10a238.js.map": "/TireForceMX/static/js/main.0e10a238.js.map",
+    "main.8c22fb2a.js.map": "/TireForceMX/static/js/main.8c22fb2a.js.map",
     "453.683f0380.chunk.js.map": "/TireForceMX/static/js/453.683f0380.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.458bec43.css",
-    "static/js/main.0e10a238.js"
+    "static/js/main.8c22fb2a.js"
   ]
 }
