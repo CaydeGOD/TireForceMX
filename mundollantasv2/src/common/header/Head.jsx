@@ -30,7 +30,7 @@ const Head = () => {
           <li><a href='#Inicio'>INICIO</a></li>
           <li><a href="#nosotros">NOSOTROS</a></li>
           <li><a href="#Marcas">MARCAS</a></li>
-          <li><a href="#whatsapp">WHATSAPP</a></li>
+          <li><a target="_blank" href="https://wa.me/8186555059">WHATSAPP</a></li>
           <li><a href="#Contacto">CONTACTO</a></li>
         </ul>
       </nav>
@@ -41,7 +41,7 @@ const Head = () => {
           <li><a href='#Inicio'>INICIO</a></li>
           <li><a href="#nosotros">NOSOTROS</a></li>
           <li><a href="#Marcas">MARCAS</a></li>
-          <li><a href="#whatsapp">WHATSAPP</a></li>
+          <li><a href="https://wa.me/8186555059">WHATSAPP</a></li>
           <li><a href="#Contacto">CONTACTO</a></li>
         </ul>
       </nav>

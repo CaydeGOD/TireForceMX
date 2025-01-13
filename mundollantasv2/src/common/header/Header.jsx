@@ -85,11 +85,11 @@ const Header = () => {
         <ButtonInsta/>
         <ButtonWasa/>
         <p>
-          TEL: 773 2725 8368
+          TEL: 8186555059
          </p>
-         <p>Correo: @outlook.com</p>
+         <p>Correo electrónico: TireForceMx@proton.me</p>
          <p className='Arial-1'>Ubicación:
-            Del Carmelo 14, Zona Industrial, 56600 Chalco de Díaz Covarrubias, Méx.
+         Camino a Santa Lucia 254, Santa Lucia, Azcapotzalco, Mex.
          </p>
         </div>
        
