@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c28a7fe8.css",
-    "main.js": "/static/js/main.9fbfc061.js",
+    "main.js": "/static/js/main.6ebfc4ad.js",
     "static/js/453.683f0380.chunk.js": "/static/js/453.683f0380.chunk.js",
     "static/media/truck.jpg": "/static/media/truck.04dffa2b9e745b1d2627.jpg",
     "static/media/Mecanico.jpg": "/static/media/Mecanico.2ae545b2312f3bafaf12.jpg",
@@ -29,11 +29,11 @@
     "static/media/logoTF.jpg": "/static/media/logoTF.019b2fae16e6168a1279.jpg",
     "index.html": "/index.html",
     "main.c28a7fe8.css.map": "/static/css/main.c28a7fe8.css.map",
-    "main.9fbfc061.js.map": "/static/js/main.9fbfc061.js.map",
+    "main.6ebfc4ad.js.map": "/static/js/main.6ebfc4ad.js.map",
     "453.683f0380.chunk.js.map": "/static/js/453.683f0380.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c28a7fe8.css",
-    "static/js/main.9fbfc061.js"
+    "static/js/main.6ebfc4ad.js"
   ]
 }
