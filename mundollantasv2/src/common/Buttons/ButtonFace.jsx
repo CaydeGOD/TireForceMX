@@ -3,8 +3,9 @@ import './ButtonMarcas.css';
 
 const ButtonFace = () => {
   return (
-    <button className="btnMarcas"
-    onClick={() => document.getElementById('Marcas').scrollIntoView({ behavior: 'smooth' })}
+    <button 
+      className="btnMarcas" 
+      onClick={() => window.location.href = 'https://www.facebook.com/profile.php?id=61572412552309'}
     >
       FACEBOOK
     </button>
